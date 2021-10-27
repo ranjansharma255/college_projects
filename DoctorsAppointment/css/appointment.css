@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    margin-top: 100px;
+    /* margin-bottom: 25%;  change this for the footer to be at the end   */
+    padding-bottom: 50px;
+  }
+ 
+.content {
+  display: flex;
+  justify-content: left;
+  margin-left: 100px;  
+  width: 80%;
+}
+
+.content div {
+    font-size: 35px;
+}
+.content b {
+color: rgb(4, 0, 255);
+}
+
+.content p {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 200;
+}
