@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="content.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/a8b3cff5e9.js" crossorigin="anonymous"></script>
     <title>Doctor's Appointment</title>
 </head>
 <body>
-    <header id = "header">
-        <img src = "img/logo.png" class = "logo img" alt = "logo">
+    <header>
+        <img class = "logo img" src = "img/logo.png" alt = "logo">
         <a href = "#" class = "title">Doctor's App</a>
-        <nav id = "nav-bar">
-            <ul class = "nav-link">
-                <li><a class = "link" href="#">Home</a></li>
-                <li><a class = "link" href="doctors.html">Doctors</a></li>               
-                <li><a class = "link" href="#">Appointment</a></li>               
-                <li><a class = "link" href="#">Contact Us</a></li>               
-            </ul>
-        </nav>
+        <nav>
+        <ul class = "nav-links">
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "doctors.html">Doctors</a></li>
+            <li><a href = "#">Appointment</a></li>
+        </ul>
+    </nav>
+    <a class =  "cta" href = "#"><button>Contact</button></a>
     </header>
     <div class="main">
         <div class="content-image">
@@ -33,6 +34,35 @@
             </b> <b>medical advice</b></b> <br>within minutes </div>
         </div>
     </div>
+    <section id = "features">
+        <div class="container">
+            <div class="icon">
+                <i class="fas fa-user-md"></i>
+            </div>
+            <div class="description">
+                <h2>24x7 Doctor's Assistance</h2>
+                <p>Patients can book appointments online & receive reminders, cancel or reschedule. Doctors too can be notified & take actions.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="icon">
+                <i class="fas fa-calendar-check"></i>
+            </div>
+            <div class="description">
+                <h2>Appointment</h2>
+                <p>Single consolidated view and planning: pre-scheduled, walk-ins & online appointments</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="icon">
+                <i class="fas fa-user-edit"></i>
+            </div>
+            <div class="description">
+                <h2>Configure Schedules</h2>
+                <p>Easily configure for doctors leave and schedules.</p>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <p>&copy 2021. Made by <b> Ranjan Sharma</b> <br> Doctors Appointment Application</p>
     </footer>
