@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#imgid {
+  position: relative;
+  margin: 50px 50px 0px 50px;
+}
+
+.slideshow {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+h1{
+font-size: 38px;
+}
+
+.slideshow a {
+  position: relative;
+  cursor: pointer;
+  font-size: 23px;
+  padding: 0px 10px;
+  margin-top: 250px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.price a{
+    font-size: 19px !important;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: left;
+  /* margin: 50px 50px 50px 100px; */
+}
+
+.content a {
+  position: relative;
+  display: flex;
+  padding-left: 30px;
+  color: #111;
+  text-decoration: none;
+}
+
+.content span {
+  padding: 30px 2px;
+  font-size: large;
+}
+
+.checked {
+  color: orange;
+}
+
+center {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+button {
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.btn1 {
+  background-color: green;
+  color: white;
+}
+
+.btn2 {
+    background-color: rgb(247, 184, 50);
+
+} 
+
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  width: 90%;
+  height: max-content;
+  margin: auto;
+}
+.content {
+  width: 100%;
+}
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 50px;
+}

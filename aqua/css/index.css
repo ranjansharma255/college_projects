@@ -1,0 +1,28 @@
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  width: 90%;
+  height: max-content;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.content {
+  width: 100%;
+}
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+.content div {
+  font-weight: 650;
+  font-size: 50px;
+}
+
+.content b {
+  color: rgb(4, 0, 255);
+}
