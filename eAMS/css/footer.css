@@ -1,0 +1,16 @@
+.footer {
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(72, 72, 224);
+  }
+  
+  
+  .footer-copyright {
+    color: #e6d2d2;
+    text-decoration: none;
+    text-align: center;
+  }
+  
