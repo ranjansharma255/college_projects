@@ -1,0 +1,127 @@
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#imgid {
+  position: relative;
+  margin: 0px 50px 0px 50px;
+}
+
+.slideshow {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+h1 {
+  font-weight: 500 !important;
+  font-size: 40px !important;
+  margin-bottom: -30px !important;
+}
+
+.slideshow a {
+  position: relative;
+  cursor: pointer;
+  font-size: 23px;
+  padding: 0px 10px;
+  margin-top: 220px;
+  color: rgb(151, 149, 149);
+  font-weight: bold;
+  font-size: 60px;
+  text-decoration: none !important;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.price {
+  margin-top: -30px !important;
+}
+
+.price p {
+  font-size: 18px !important;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: left;
+}
+
+.content a {
+  position: relative;
+  display: flex;
+  padding-left: 30px;
+  font-size: 24px !important;
+  color: #111;
+  text-decoration: none;
+}
+
+.strike {
+  text-decoration:line-through
+}
+
+.content i {
+
+  padding: 0 2px !important;
+  font-size: 18px;
+}
+
+.fa-star {
+  color: orange;
+}
+
+.btn-class {
+  margin: 0 200px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-weight: 600;
+  border: none;
+  border-radius: 20px !important;
+  padding: 10px;
+  margin: 10px 0 !important;
+  font-size: 199px;
+}
+
+.btn1 {
+  background-color: green;
+  color: white;
+}
+
+.btn2 {
+  background-color: rgb(247, 184, 50);
+}
+
+.btn1:hover {
+  background-color: rgb(15, 141, 15);
+  text-decoration: underline;
+}
+
+.btn2:hover {
+  text-decoration: underline;
+  background-color: rgb(241, 195, 94);
+}
+
+.main {
+  margin-top: 20px !important;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  width: 90%;
+  margin: auto;
+  height: max-content;
+}
+.content {
+  width: 100%;
+}
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 50px 20px 10px;
+}
