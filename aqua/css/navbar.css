@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-li, .link {
+li,
+.link {
     font-family: "montserrat", sans-serif;
     font-size: 20px;
     text-decoration: none;
     color: black;
 }
 
-#header { 
-    background-color:rgb(171, 39, 236);
+#header {
+    background-color: #D1E8E4;
     display: flex;
     width: 100%;
     height: 60px;
@@ -38,5 +38,7 @@ li, .link {
 }
 
 .breadcrumb {
-    background-color: rgb(233, 226, 236) !important;
+    background-color: rgb(255, 255, 255) !important;
+    font-size: 10px !important;
+    padding: 12px;
 }
