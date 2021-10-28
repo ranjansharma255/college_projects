@@ -9,6 +9,7 @@ body {
 
 .container {
     padding: 0 !important;
+    height: 100vh;
 }
 
 .container .row {
@@ -25,4 +26,8 @@ body {
 
 .content {
     color: white !important;
+    font-weight: 700;
+}
+.hvh{
+    min-height: 100vh;
 }

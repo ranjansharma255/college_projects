@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    width: 90%;
+    height: max-content;
+    margin: auto;
+  }
+  .content {
+    width: 100%;
+  }
+   
+  .content-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 20px 50px;
+  }
+
+  button {
+    border: none;
+    border-radius: 20px !important;
+    padding: 10px 40px;
+    margin: 20px 0;
+    background-color: green;
+    color: white;
+    font-size: 15px !important;
+  }
+
+  p a{
+      font-size: 14px;
+  }
+
+  .card-head {
+      font-weight: 500;
+      font-size: 25px;
+  }
+
+  b{
+      font-size: 18px;
+  }
+
+  div{
+      margin: 10px;
+  }
+
+  select {
+      width: 100px;
+      height: 28px;
+  }
