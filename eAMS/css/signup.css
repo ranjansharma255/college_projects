@@ -5,8 +5,6 @@ body {
 }
 
 .main-content{
-    
-    /* margin: 40px 50px; */
     display: flex;
     margin: 50px 0 100px 0;
     justify-content: space-evenly;
