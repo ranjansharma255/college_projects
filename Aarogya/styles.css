@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 !important;
+}
+
+.container .row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bg-image {
+    background-image: url('main.jpg');
+    margin: 0;
+    text-align: center;
+    box-shadow: inset 0 0 0 2000px #1c1c1c65;
+}
+
+.content {
+    color: white !important;
+}
