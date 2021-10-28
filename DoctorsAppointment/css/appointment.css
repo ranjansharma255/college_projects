@@ -8,24 +8,48 @@
     margin-top: 100px;
     /* margin-bottom: 25%;  change this for the footer to be at the end   */
     padding-bottom: 50px;
-  }
- 
+}
+
 .content {
-  display: flex;
-  justify-content: left;
-  margin-left: 100px;  
-  width: 80%;
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    width: 80%;
 }
 
 .content div {
     font-size: 35px;
 }
+
 .content b {
-color: rgb(4, 0, 255);
+    color: rgb(4, 0, 255);
 }
 
 .content p {
     margin-top: 12px;
     font-size: 24px;
     font-weight: 200;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+div ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 116px;
+}
+
+div ul li {
+    width: max-content;
+    list-style-type: none;
+    background-color: white;
+    color: #000;
+    padding: 20px;
+    border-radius: 25px 10px;
+    margin: 10px 0;
+    font-size: 22px;
 }
